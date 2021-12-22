@@ -23,11 +23,11 @@ const Header = () => {
             <div className="row banner">
                 <div className="banner-text">
                     <h1 className="responsive-headline">HAMMA ALI RACHID.</h1>
-                    <h3>I'm a Ouarzazate based <span>ocupation</span>. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. Wikipedia .</h3>
-                    <hr />
-                    <ul className="social">
-                        networks list
-                    </ul>
+                    {/*<h3>I'm a Ouarzazate based <span>ocupation</span>. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. Wikipedia .</h3>*/}
+                    {/*<hr />*/}
+                    {/*<ul className="social">*/}
+                    {/*    networks list*/}
+                    {/*</ul>*/}
                 </div>
             </div>
 

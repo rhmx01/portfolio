@@ -1,27 +1,21 @@
 import React from 'react';
+import {Card, CardContent} from "@mui/material";
+import image from "../images/header-background.png"
 
-const ProjectCard = () => {
+const ProjectCard = ({data}) => {
     return (
-        <div>
-            <p>
-                2018 : app quiz for kids (android studio, Java)
+        <div className="">
+            <div className="flex rounded-xl overflow-hidden bg-white shadow-lg">
+                <img src={image} alt="p1" className="w-64 h-full"/>
+                <CardContent>
+                    <h1 className="font-bold text-2xl">{data.year}: {data.name}</h1>
+                    <p>{data.description}</p>
+                    <h3 className="underline font-bold text-xl">Besoins Techniques :</h3>
+                    <div className="flex w-full mt-4">{data.tech.map( e => <div className="p1-2 px-4 w-fit border rounded-md bg-gray-200 font-bold  mr-2" >{e}</div>)}</div>
+                    <h2 className="mt-4 italic">{data.workType}</h2>
+                </CardContent>
 
-                2019 : app countdown of season 8 of game of thrones (android studio, Java)
-                2019: tripping book (Laravel, PHP, Mysql, Bootstrap
-                2019: Hotels reservation (Laravel, PHP, Mysql, Bootstrap, paypal
-                2019: Tours reservation (Laravel, PHP, Mysql, Bootstrap, paypal
-
-                2020: unity game 3d fire head (Unity 3D, C#, Photoshop
-
-                2021: AUOZT SIG platform (  Laravel, PHP ,Postgresql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript, OpenLayerMap,
-                2021: LMS MI ( Moodle, PHP, Mustache, Bootstrap, Laravel, Liferay, Postgresql,
-                2021: KMS MI ( Liferay, Laravel, Postgresql, Javascript,
-                2021: LMS BS ( Spring boot, Java, Mysql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript
-                2021: Kms bs liferay (  Laravel, PHP ,Mysql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript,
-                2021: Iglomi (  Laravel, PHP ,Mysql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript,
-
-
-            </p>
+            </div>
         </div>
     );
 };
