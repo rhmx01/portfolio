@@ -5,11 +5,14 @@ body{
     font-family: "Segoe UI",Roboto,sans-serif !important ;
     /* font-weight: bold; */
     letter-spacing: 1px ;
-    background-color: #dfdfe1 ;
+    /*background-color: #dfdfe1 ;*/
     /* background-color: #DFDFE1;
     background: -moz-linear-gradient(top, #DFDFE1 0%, #F5F6FA 44%, #FFFFFF 100%);
     background: -webkit-linear-gradient(top, #DFDFE1 0%, #F5F6FA 44%, #FFFFFF 100%);
     background: linear-gradient(to bottom, #DFDFE1 0%, #F5F6FA 44%, #FFFFFF 100%); */
+    /*#ff4a57*/
+    background: #1f2235;
+    /*background: linear-gradient(86deg, rgba(225, 177, 44,0.2) 7%, rgba(225, 177, 44,0.6) 41%, rgba(225, 177, 44,0.8) 70%, rgba(225, 177, 44,1) 100%);*/
     color: #0f1f2f !important;
     line-height: 30px !important;
     min-width: 1335px !important;
@@ -18,13 +21,13 @@ body{
 
 header {
     position: relative;
-    height: 800px;
-    min-height: 500px;
-    width: 100%;
-    background: #161415 url(./images/header-background.png) no-repeat top center;
+    /*height: 800px;*/
+    /*min-height: 500px;*/
+    /*width: 100%;*/
+    /*background: #161415 url(./images/header-background.png) no-repeat top center;*/
     background-size: cover !important;
     -webkit-background-size: cover !important;
-    text-align: center;
+    /*text-align: center;*/
     overflow: hidden;
 }
 
@@ -41,22 +44,23 @@ header .banner {
     margin: 0 auto;
     width: 85%;
     padding-bottom: 30px;
-    text-align: center;
+    color: #ffffff;
+    /*text-align: center;*/
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-    font: 90px/1.1em 'opensans-bold', sans-serif;
+    /*font: 90px/1.1em 'opensans-bold', sans-serif;*/
     color: #fff;
-    letter-spacing: -2px;
-    margin: 0 auto 18px auto;
+    /*letter-spacing: -2px;*/
+    /*margin: 0 auto 18px auto;*/
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-    font: 18px/1.9em 'librebaskerville-regular', serif;
-    color: #A8A8A8;
-    margin: 0 auto;
-    width: 70%;
+    /*font: 18px/1.9em 'librebaskerville-regular', serif;*/
+    color: #fff;
+    /*margin: 0 auto;*/
+    /*width: 70%;*/
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
@@ -65,7 +69,7 @@ header .banner-text h3 a {
 }
 header .banner-text hr {
     width: 60%;
-    margin: 18px auto 24px auto;
+    /*margin: 18px auto 24px auto;*/
     border-color: #2F2D2E;
     border-color: rgba(150, 150, 150, .1);
 }
@@ -110,8 +114,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    /*padding: 0;*/
     border: none;
     outline: none;
 }
@@ -119,13 +123,13 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* nav-wrap */
 #nav-wrap {
     font: 12px 'opensans-bold', sans-serif;
-    width: 100%;
+    /*width: 100%;*/
     text-transform: uppercase;
     letter-spacing: 2.5px;
     margin: 0 auto;
     z-index: 100;
     position: fixed;
-    left: 0;
+    right: 0;
     top: 0;
 }
 .opaque { background-color: #333; }
@@ -135,10 +139,10 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 ul#nav {
     min-height: 48px;
-    width: auto;
+    /*width: auto;*/
 
     /* center align the menu */
-    text-align: center;
+    text-align: start;
 }
 ul#nav li {
     position: relative;
@@ -157,7 +161,7 @@ ul#nav li a {
     line-height: 32px;
     text-decoration: none;
     text-align: left;
-    color: #fff;
+    color: #ffffff;
 
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
@@ -167,5 +171,16 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #ff4a57; }
+
+.header-name{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ff4a57;
+}
 
