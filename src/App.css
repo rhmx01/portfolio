@@ -194,3 +194,30 @@ ul#nav li.current a { color: #ff4a57; }
 .social-icons:hover{
     background-color: #ff4a57;
 }
+
+.header-pic{
+    border-bottom: 4px solid #ff4a57;
+    border-top: 4px solid #ff4a57;
+}
+
+.about-titles{
+    text-transform: uppercase;
+    /*text-align: center;*/
+    font-weight: bold;
+     color: #ffffff !important;
+    font: 18px/24px 'opensans-bold', sans-serif;
+    letter-spacing: 1px;
+    /*position: relative;*/
+    /* right: 22.2%; */
+}
+.about-divider{
+    border-bottom: 3px solid #ff4a57;
+    position: relative;
+    /* left: 12.95%; */
+    /*width: 80%;*/
+    /*margin-top: 0 !important;*/
+    /*margin-bottom: 14px !important;*/
+}
+.nav-bg{
+    background-color: #1f2235;
+}
