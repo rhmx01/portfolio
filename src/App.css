@@ -183,4 +183,14 @@ ul#nav li.current a { color: #ff4a57; }
     text-transform: uppercase;
     color: #ff4a57;
 }
+.social-icons{
+    width: 3.3rem !important;
+    height: auto;
+    margin-right: 1rem;
+    cursor: pointer;
+    background-color: #0f1f2f;
+}
 
+.social-icons:hover{
+    background-color: #ff4a57;
+}
