@@ -36,9 +36,9 @@ const Header = () => {
                         <h1 className="p-4 font-bold header-name">I'm rachid hamma ali.</h1>
                         <h3 className="p-4 text-left">Project Engineer with +3 years of experience in the information technology, mostly in large projects like Geographic Information System (SIG) &  learning management systems (LMS)</h3>
                         <div className="p-4 flex">
-                            <a href="https://www.linkedin.com/in/rhmx/" target="_blank"><img src={linkedin} alt="Rachid hamma ali linkedIn profile" className="social-icons p-1 rounded-md"/></a>
-                            <a href="https://github.com/rhmx01" target="_blank"><img src={github} alt="Rachid hamma ali github profile" className="social-icons p-1 rounded-md"/></a>
-                            <a href="https://medium.com/@r.hammaali" target="_blank"><img src={medium} alt="Rachid hamma ali medium profile" className="social-icons p-1 rounded-md"/></a>
+                            <a href="https://www.linkedin.com/in/rhmx/" target="_blank" rel="noreferrer"><img src={linkedin} alt="Rachid hamma ali linkedIn profile" className="social-icons p-1 rounded-md"/></a>
+                            <a href="https://github.com/rhmx01" target="_blank" rel="noreferrer"><img src={github} alt="Rachid hamma ali github profile" className="social-icons p-1 rounded-md"/></a>
+                            <a href="https://rhmx01.medium.com" target="_blank" rel="noreferrer"><img src={medium} alt="Rachid hamma ali medium profile" className="social-icons p-1 rounded-md"/></a>
                         </div>
                     </div>
                 </div>

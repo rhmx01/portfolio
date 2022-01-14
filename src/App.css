@@ -221,3 +221,116 @@ ul#nav li.current a { color: #ff4a57; }
 .nav-bg{
     background-color: #1f2235;
 }
+
+
+
+u{
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+}
+
+.profil a, .profil p ,.profil .progress-bar{
+    color: #dfdfe1 !important;
+    font-size: 13px !important;
+    font-weight: 650;
+}
+.profil a:hover{
+    color: #ff4a57 !important;
+    text-decoration: none;
+}
+.profil .progress-bar{
+    color: #fff !important;
+    padding: 2px !important;
+    /* animation: move 2s linear infinite; */
+    background-color: #dfdfe1 !important;
+}
+
+.profil .progress{
+    border-radius: 0rem !important;
+    background-color: #0f1f2f;
+    border: 1px solid #dfdfe1;
+
+}
+.profil .progress p{
+    color: #0f1f2f !important;
+    position: relative;
+    top: 66.9%;
+    z-index: 4440;
+}
+
+#right a, #right p ,#right .progress-bar{
+    color: #0f1f2f !important;
+    font-size: 16px !important;
+    font-weight: bold;
+    /* padding-top: 14px; */
+}
+#right a:hover{
+    color: #ff4a57 !important;
+    text-decoration: none;
+}
+#right .progress-bar{
+    background-color: #0f1f2f !important;
+}
+
+#right .progress{
+    border-radius: 0rem !important;
+    background-color: #dfdfe1;
+    border-radius: 3rem !important;
+    border: 1px solid #0f1f2f;
+}
+
+.vl {
+    border-right: 2px solid #0f1f2f;
+}
+
+#right h4 .fas , .myfas{
+    font-size: 35px !important;
+    margin-right: .5rem !important;
+}
+.f6, #plan-a{
+    font-weight: bold !important;
+}
+#plan-a .col-4, #plan-a .col-3{
+    /* min-height: 60px; */
+    padding: 30px 0 !important;
+}
+
+#plan-a p{
+    font-weight: 800 !important;
+}
+#plan-a .profil{
+    font-size: 20px !important;
+    font-weight: bold;
+}
+#head{
+    font-size: 30px;
+}
+u{
+    border-color: #ff4a57 !important;
+}
+
+.fa-caret-right{
+    color: #ff4a57;
+}
+
+.table .row {
+
+    border: solid 1px #0f1f2f;
+    border-radius: 15px;
+}
+
+table span{
+    font-weight: 400;
+    font-size: medium;
+
+}
+
+.boxShadow{
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, 0px 2px 25px -2px rgba(0,0,0,0.89);
+    box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, 0px 2px 25px -2px rgba(0,0,0,0.89);
+}
+
+
+.tag {
+    margin: 4px 4px 4px 8px;
+}
