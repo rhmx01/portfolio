@@ -1,17 +1,48 @@
 import React from 'react';
 import work from "../images/work.png";
 import Title from "./Title";
-import {ArrowRight, CalendarToday, Circle, Event, Flag} from "@mui/icons-material";
+import {ArrowRight, Event, Flag} from "@mui/icons-material";
 
 const Experiences = () => {
+    const data_fr = {
+        job: "Ingénieur de projet",
+        date: "March 2020 - Présent",
+        compagny: "Bluescratch, Casablanca",
+        projects: [
+            {
+                title: "Système d'Information Géographique (SIG)",
+                description: "Travailler en équipe pour développer une application SIG avec Laravel & React JS, pour l’Agence Urbaine Ouarzazate-Zagora–Tinghir (AUOZT)"
+            },
+            {
+                title: "Learning Management System (LMS)",
+                description: "Travail individuel pour développer une application LMS personnalisée avec Moodle pour le Ministère d'Intérieur"
+            },
+            {
+                title: "Learning Management System (LMS)",
+                description: "Travailler en équipe pour développer une application LMS avancé avec Spring Boot & React JS"
+            },
+            // {
+            //     title: "KMS-BS",
+            //     description: "Travailler en équipe pour développer une application KMS avec Laravel & React JS"
+            // },
+            // {
+            //     title: "KMS-MI",
+            //     description: "Deploiment"
+            // },
+            // {
+            //     title: "IGLOMI",
+            //     description: "Travailler en équipe pour développer une application de banck d'experts en Laravel & React JS"
+            // },
+        ],
+    }
     return (
-        <div className="mt-5 pt-8">
+        <div id="work" className="mt-5 pt-8">
             <div className=" mt-5 mb-5">
                 <Title title="Expérience Professionnelle" icon={work} color="#1f2235"/>
             </div>
             <div>
                 <div id="workexperience" className="sectionClass">
-                    <div className="row ">
+                    <div className="row">
                         <div className="fullWidth eight columns">
                             <ul className="cbp_tmtimeline">
                                 <li>
@@ -19,26 +50,23 @@ const Experiences = () => {
                                         <img src={work} alt="rachid hamma ali work" className="w-16 mx-auto"/>
                                     </div>
                                     <div className="cbp_tmlabel wow fadeInRight animated">
-                                        <h3>Project Engineer</h3>
+                                        <h3>{data_fr.job}</h3>
                                         <div className="date">
-                                            <Event/> March 2020 - Présent
+                                            <Event/> {data_fr.date}
                                         </div>
-                                        <h4><Flag/> Bluescratch, Casablanca</h4>
-                                        <p className="projectParagraph">
-
-                                            <span className="font-bold"><ArrowRight/>Système d'Information Géographique (SIG) :</span><br/>
-                                            <p className="ml-8">Travailler en équipe pour développer une application SIG avec <b>Laravel</b> & <b>React JS</b>, pour l’Agence Urbaine Ouarzazate-Zagora–Tinghir (AUOZT)</p>
-                                            <br/>
-                                            <span className="font-bold"><ArrowRight/>Learning Management System (LMS) :</span><br/>
-                                            <p className="ml-8">Travail individuel pour développer une application LMS personnalisée avec <b>Moodle</b> pour le Ministère d'Intérieur</p>
-                                            <br/>
-                                            <span className="font-bold"><ArrowRight/>Learning Management System (LMS) :</span><br/>
-                                            <p className="ml-8">Travailler en équipe pour développer une application LMS avancé avec Spring Boot & <b>React JS</b></p>
-
+                                        <h4><Flag/> {data_fr.compagny}</h4>
+                                        <div className="projectParagraph">
+                                            {data_fr.projects.map( project => (
+                                                    <div className="mt-2">
+                                                        <span className="font-bold"><ArrowRight/>{project.title} :</span><br/>
+                                                        <p className="ml-8">{project.description}</p>
+                                                    </div>
+                                                )
+                                            )}
 
                                             {/*<span className="font-bold"><ArrowRight/>   </span><br/>*/}
                                             {/*<p className="ml-8">   </p>*/}
-                                        </p>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>

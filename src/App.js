@@ -12,14 +12,16 @@ function App() {
         <div className="App">
             <Header/>
             {/*<About/>*/}
-            <Container  maxWidth="xl">
-                <Competances/>
-            </Container>
+
             <div className="bg-white" >
                 <Experiences/>
             </div>
+
+            <Container>
+                <Competances/>
+            </Container>
             <Container  maxWidth="xl">
-                <Projects/>
+                {/*<Projects/>*/}
                 <Diplomes/>
             </Container>
         </div>

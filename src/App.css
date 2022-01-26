@@ -176,6 +176,7 @@ ul#nav li.current a { color: #ff4a57; }
 .header-name{
     font-size: 50px;
     text-transform: capitalize;
+    line-height: initial;
 }
 .logo{
     font-size: 30px;

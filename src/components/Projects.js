@@ -107,6 +107,24 @@ const Projects = () => {
             workType: "Travaille individuel",
             url: "",
         },
+        {
+            name: "KMS-BS",
+            year: "2021",
+            description: "BS",
+            tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
+            picSrc: "/ekfkze",
+            workType: "Travaille individuel",
+            url: "",
+        },
+        {
+            name: "IGLOMI-BS",
+            year: "2021",
+            description: "BS",
+            tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
+            picSrc: "/ekfkze",
+            workType: "Travaille individuel",
+            url: "",
+        },
     ]
     return (
         <div className="grid gap-8 pt-8 px-24 text-gray-600">
