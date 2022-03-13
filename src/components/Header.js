@@ -8,11 +8,11 @@ const Header = () => {
     const pic = "https://firebasestorage.googleapis.com/v0/b/testimageview.appspot.com/o/photo2.png?alt=media&token=79e416b2-6a5c-472d-a2bc-0b0b640d94f5";
 
     const data_fr = {
-        name: "Je suis Rachid Hamma Ali.",
+        name: "Rachid Hamma Ali.",
         description: "Ingénieur de projet avec +3 ans d'expérience dans les technologies de l'information, principalement dans les grands projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
     }
     const data_en = {
-        name: "I'm rachid hamma ali.",
+        name: "Rachid hamma ali.",
         description: "Project Engineer with +3 years of experience in the information technology, mostly in large projects like Geographic Information System (SIG) & learning management systems (LMS)"
     }
     return (

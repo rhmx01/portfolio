@@ -16,13 +16,16 @@ function App() {
             <div className="bg-white" >
                 <Experiences/>
             </div>
-
             <Container>
                 <Competances/>
             </Container>
+
             <Container  maxWidth="xl">
-                {/*<Projects/>*/}
                 <Diplomes/>
+            </Container>
+
+            <Container  maxWidth="xl">
+                <Projects/>
             </Container>
         </div>
     );

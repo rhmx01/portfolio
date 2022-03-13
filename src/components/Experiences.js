@@ -11,7 +11,7 @@ const Experiences = () => {
         projects: [
             {
                 title: "Système d'Information Géographique (SIG)",
-                description: "Travailler en équipe pour développer une application SIG avec Laravel & React JS, pour l’Agence Urbaine Ouarzazate-Zagora–Tinghir (AUOZT)"
+                description: "Travail en équipe pour développer une application SIG avec Laravel & React JS, pour l’Agence Urbaine Ouarzazate-Zagora–Tinghir (AUOZT)"
             },
             {
                 title: "Learning Management System (LMS)",
@@ -19,11 +19,11 @@ const Experiences = () => {
             },
             {
                 title: "Learning Management System (LMS)",
-                description: "Travailler en équipe pour développer une application LMS avancé avec Spring Boot & React JS"
+                description: "Travail en équipe pour développer une application LMS avancée avec Spring Boot & React JS"
             },
             // {
             //     title: "KMS-BS",
-            //     description: "Travailler en équipe pour développer une application KMS avec Laravel & React JS"
+            //     description: "Travail en équipe pour développer une application KMS avec Laravel & React JS"
             // },
             // {
             //     title: "KMS-MI",
@@ -31,7 +31,7 @@ const Experiences = () => {
             // },
             // {
             //     title: "IGLOMI",
-            //     description: "Travailler en équipe pour développer une application de banck d'experts en Laravel & React JS"
+            //     description: "Travail en équipe pour développer une application de banck d'experts en Laravel & React JS"
             // },
         ],
     }
