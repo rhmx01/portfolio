@@ -335,3 +335,9 @@ table span{
 .tag {
     margin: 4px 4px 4px 8px;
 }
+.bg-dark-blue{
+    background: #1f2235;
+}
+.text-dark-blue{
+    color: #1f2235;
+}

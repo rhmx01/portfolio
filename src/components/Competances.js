@@ -16,7 +16,7 @@ const Competances = () => {
         {name: "C#", level: 3},
         {name: "REST/RESTful API", level: 5},
         {name: "SQL(mysql, postgresql)", level: 5},
-        {name: "Git/Github", level: 5},
+        {name: "Git/Github", level: 4},
         {name: "Liferay", level: 3},
         {name: "Moodle", level: 5},
         // {name: "Gestion de projet", level: 3},

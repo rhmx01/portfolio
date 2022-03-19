@@ -99,7 +99,7 @@ const Projects = () => {
             url: "",
         },
         {
-            name: "Système de gestion de l’apprentissage (LMS)",
+            name: "Learning Management System",
             year: "2021",
             description: "Application web gèrer le processus d'apprentissage via une ingénierie de formation convenable, pour le Ministère d'Intérieur",
             tech: ["Moodle", "Postgresql", "PHP", "Mustache", "Bootstrap"],
@@ -109,7 +109,7 @@ const Projects = () => {
             url: "",
         },
         {
-            name: "Système de gestion de l’apprentissage (LMS)",
+            name: "Learning Management System",
             year: "2021",
             description: "Application LMS avancée",
             tech: ["Spring boot", "Java", "Mysql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
@@ -119,7 +119,7 @@ const Projects = () => {
             url: "",
         },
         {
-            name: "Système de gestion des connaissances (KMS)",
+            name: "Knowledge management system",
             year: "2021",
             description: "Le concept du système de gestion des connaissances (KMS) a pour ambition d'aider les utilisateurs internes créer, partager, structurer et diffuser les connaissances aux utilisateurs ciblés et intéressés.",
             tech: ["Liferay", "Postgresql"],
@@ -129,7 +129,7 @@ const Projects = () => {
             url: "",
         },
         {
-            name: "Système de gestion des connaissances (KMS)",
+            name: "knowledge management system",
             year: "2021",
             description: "Système de gestion des connaissances (KMS)",
             tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
@@ -160,9 +160,9 @@ const Projects = () => {
         },
     ]
     return (
-        <div>
+        <div id="projects" className="mt-5 pt-8">
             <div className=" my-5">
-                <Title title="Projects" icon={diploma} color="#fff" />
+                <Title title="Portfolio" icon={diploma} color="#fff" />
             </div>
             <div className="grid grid-cols-4 gap-8 pt-8 px-24 text-gray-600">
                 {projects.map( p => <ProjectCard data={p}/>)}

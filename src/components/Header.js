@@ -26,21 +26,23 @@ const Header = () => {
                 </ul>
                 <ul id="nav" className="nav">
                     <li className="current"><a className="font-bold" href="#home">Home</a></li>
-                    <li><a className="font-bold" href="#work">Work</a></li>
-                    <li><a className="font-bold" href="#skills">Skills</a></li>
-                    <li><a className="font-bold" href="#diplomes">Education</a></li>
+                    <li><a className="font-bold" href="#about">À propos</a></li>
+                    <li><a className="font-bold" href="#work">Expérience</a></li>
+                    <li><a className="font-bold" href="#skills">Compétences</a></li>
+                    <li><a className="font-bold" href="#diplomes">Diplômes</a></li>
+                    <li><a className="font-bold" href="#projects">Portfolio</a></li>
                 </ul>
 
             </nav>
             <div className="h-screen flex items-center">
-                <div className="flex mx-auto items-center grid md:grid-cols-8 lg:grid-cols-10 gap-2">
-                    <div className="w-full justify-end col-start-2 col-span-2">
-                        <img src={pic} alt="mypic" className="flex w-72 h-72 rounded-full shadow-xl"/>
-                    </div>
-                    <div className="col-span-4 text-white">
-                        <h1 className="p-4 font-bold header-name text-center lg:text-left">{data_fr.name}</h1>
-                        <h3 className="p-4 text-left max-w-2xl">{data_fr.description}</h3>
-                        <div className="p-4 flex mx-auto">
+                <div className="flex mx-auto items-center">
+                    {/*<div className="w-full justify-end col-start-2 col-span-2">*/}
+                    {/*    <img src={pic} alt="mypic" className="flex w-72 h-72 rounded-full shadow-xl"/>*/}
+                    {/*</div>*/}
+                    <div className="col-span-4 text-white text-center">
+                        <h1 className="p-4 font-bold header-name ">{data_fr.name}</h1>
+                        <h3 className="p-4 max-w-4xl">{data_fr.description}</h3>
+                        <div className="p-4 flex w-fit  mx-auto">
                             <a href="https://www.linkedin.com/in/rhmx/" target="_blank" rel="noreferrer"><img src={linkedin} alt="Rachid hamma ali linkedIn profile" className="social-icons p-1 rounded-md"/></a>
                             <a href="https://github.com/rhmx01" target="_blank" rel="noreferrer"><img src={github} alt="Rachid hamma ali github profile" className="social-icons p-1 rounded-md"/></a>
                             <a href="https://rhmx01.medium.com" target="_blank" rel="noreferrer"><img src={medium} alt="Rachid hamma ali medium profile" className="social-icons p-1 rounded-md"/></a>

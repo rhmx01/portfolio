@@ -6,14 +6,15 @@ import {Container} from "@mui/material";
 import Diplomes from "./components/Diplomes";
 import Experiences from "./components/Experiences";
 import Competances from "./components/Competances";
+import About from "./components/About";
 
 function App() {
     return (
-        <div className="App">
+        <div className="App mb-8">
             <Header/>
-            {/*<About/>*/}
 
             <div className="bg-white" >
+                <About/>
                 <Experiences/>
             </div>
             <Container>
