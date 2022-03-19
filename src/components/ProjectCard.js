@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button} from "@mui/material";
-import image from "../images/header-background.png"
 
 const ProjectCard = ({data}) => {
     return (
@@ -8,7 +7,7 @@ const ProjectCard = ({data}) => {
             <div className="h-full relative rounded-xl overflow-hidden bg-white shadow-lg">
                 <div className="w-full p-2 mb-10">
                     <div className="relative">
-                        <img src={image} alt={data.name} className="rounded-xl"/>
+                        <img src={data.picSrc} alt={data.name} className="rounded-xl"/>
                         <div className="absolute top-0 bg-yellow-600 rounded-md shadow-md text-white font-bold text-md px-2 m-2">
                             {data.year}
                         </div>

@@ -21,18 +21,22 @@ const Experiences = () => {
                 title: "Learning Management System (LMS)",
                 description: "Travail en équipe pour développer une application LMS avancée avec Spring Boot & React JS"
             },
-            // {
-            //     title: "KMS-BS",
-            //     description: "Travail en équipe pour développer une application KMS avec Laravel & React JS"
-            // },
-            // {
-            //     title: "KMS-MI",
-            //     description: "Deploiment"
-            // },
-            // {
-            //     title: "IGLOMI",
-            //     description: "Travail en équipe pour développer une application de banck d'experts en Laravel & React JS"
-            // },
+            {
+                title: "KMS-BS",
+                description: "Travail en équipe pour développer une application KMS avec Laravel & React JS"
+            },
+            {
+                title: "KMS-MI",
+                description: "Travail en équipe pour développer une application KMS avec Liferay"
+            },
+            {
+                title: "IGLOMI",
+                description: "Travail en équipe pour développer une application de banck d'experts en Laravel & React JS"
+            },
+            {
+                title: "SOMAPORT",
+                description: "Travail en équipe pour développer une application de gestion des facteurs en Laravel & React JS"
+            },
         ],
     }
     return (

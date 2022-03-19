@@ -33,7 +33,7 @@ const About = () => {
                     <div className="p-4 border-l">
                         <h1 className="mb-4 font-bold text-2xl uppercase">Personal détails</h1>
                         <h3 className="font-bold"><a href="https://www.google.com/maps/place/30%C2%B052'03.0%22N+6%C2%B051'50.9%22W/@30.867502,-6.8649286,225m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d30.8675025!4d-6.8641443">
-                            <AddLocation/> TARMIGT OUARZAZATE</a></h3>
+                            Situé à : TARMIGT OUARZAZATE</a></h3>
                         <h3 className="font-bold">Age : 25 ans</h3>
                         <h3 className="font-bold">Né le : 26-03-1997</h3>
                         <h3 className="font-bold">Situation : Célibataire</h3>
