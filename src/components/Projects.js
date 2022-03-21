@@ -6,6 +6,7 @@ import image from "../images/header-background.png"
 import brainupkidsimg from "../images/screens/brainupkids/page.jpg"
 import tbimg from "../images/screens/tb/page.jpg"
 import quadimg from "../images/screens/quad/page.jpg"
+import campingimg from "../images/screens/camping/page.jpg"
 import firehead from "../images/screens/firehead/page.jpg"
 import iglomiimg from "../images/screens/iglomi/page.jpg"
 import rnplmsimg from "../images/screens/rnplms/page.jpg"
@@ -77,7 +78,7 @@ const Projects = () => {
             description: "Application Web en Laravel permet aux utilisateurs de voir les chambres disponibles et effectuer sa réservation avec une méthode de paiement confiant et International (PayPal). elle permet à l’administration d’hôtel de gérer les chambres et les réservations des clients.",
             tech: ["Laravel", "PHP", "Bootstrap", "HTML5/CSS3/JavaScript", "mySQL", "PayPal Gateway"],
             strTech: "Laravel, PHP, Bootstrap, HTML5/CSS3/JavaScript, mySQL, PayPal Gateway",
-            picSrc: image,
+            picSrc: campingimg,
             workType: "Travail individuel",
             url: "",
         },
