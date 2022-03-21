@@ -105,7 +105,7 @@ const Projects = () => {
         },
         {
             id: 6,
-            name: "Plateforme SIG",
+            name: "Système d'information géographique (SIG)",
             year: "2021",
             description: "Plateforme web de dématérialisation des procédures et les services en ligne pour le compte de !'Agence Urbaine de Ouarzazate-Zagora-Tinghir",
             tech: ["Laravel", "PHP" ,"Postgresql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript", "OpenLayers"],
@@ -149,7 +149,7 @@ const Projects = () => {
         },
         {
             id: 10,
-            name: "knowledge management system",
+            name: "Knowledge management system",
             year: "2021",
             description: "Système de gestion des connaissances (KMS)",
             tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
@@ -160,7 +160,7 @@ const Projects = () => {
         },
         {
             id: 11,
-            name: "IGLOMI-BS",
+            name: "Plateforme des consultants",
             year: "2021",
             description: "BS",
             tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],

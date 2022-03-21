@@ -42,7 +42,7 @@ const Header = () => {
                     </div>
                     <div className=" text-white">
                         <h1 className="p-4 font-bold header-name text-left">{data_fr.name}</h1>
-                        <h3 className="p-4 text-left max-w-2xl">{data_fr.description}</h3>
+                        <p className="p-4 text-left max-w-2xl">{data_fr.description}</p>
                         <div className="p-4 flex mx-auto">
                             <a href="https://www.linkedin.com/in/rhmx/" target="_blank" rel="noreferrer"><img src={linkedin} alt="Rachid hamma ali linkedIn profile" className="social-icons p-1 rounded-md"/></a>
                             <a href="https://github.com/rhmx01" target="_blank" rel="noreferrer"><img src={github} alt="Rachid hamma ali github profile" className="social-icons p-1 rounded-md"/></a>

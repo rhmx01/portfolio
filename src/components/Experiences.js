@@ -26,24 +26,24 @@ const Experiences = () => {
             },
             {
                 id: 4,
-                title: "KMS-BS",
+                title: "Knowledge management system (KMS)",
                 description: "Travail en équipe pour développer une application KMS avec Laravel & React JS"
             },
             {
                 id: 5,
-                title: "KMS-MI",
+                title: "Knowledge management system (KMS)",
                 description: "Travail en équipe pour développer une application KMS avec Liferay"
             },
             {
                 id: 6,
-                title: "IGLOMI",
-                description: "Travail en équipe pour développer une application de banck d'experts en Laravel & React JS"
+                title: "Plateforme des consultants",
+                description: "Travail en équipe pour développer une application de bank des consultants en Laravel & React JS"
             },
-            {
-                id: 7,
-                title: "SOMAPORT",
-                description: "Travail en équipe pour développer une application de gestion des facteurs en Laravel & React JS"
-            },
+            // {
+            //     id: 7,
+            //     title: "SOMAPORT",
+            //     description: "Travail en équipe pour développer une application de gestion des facteurs en Laravel & React JS"
+            // },
         ],
     }
     return (
