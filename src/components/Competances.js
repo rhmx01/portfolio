@@ -30,14 +30,14 @@ const Competances = () => {
         {name: "Photoshop", level: 4},
     ];
     return (
-        <div id="skills" className="mt-5 pt-8">
+        <div id="skills" className="mt-5 py-8">
             <div className=" mt-5 mb-5">
                 <Title title="Compétences" icon={work} color="#fff"/>
             </div>
 
             <div className="grid grid-cols-2 gap-1 mx-auto">
                 {skills.map( skill => (
-                    <div className="flex justify-between w-96 items-center text-white border-b mt-4 mx-auto">
+                    <div key={skill.name} className="flex justify-between w-96 items-center text-white border-b mt-4 mx-auto">
                         <h1 className="font-bold text-xl mr-2">{skill.name}</h1>
                         <Rating
                             name="read-only"

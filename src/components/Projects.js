@@ -5,6 +5,7 @@ import diploma from "../images/diploma.png";
 import image from "../images/header-background.png"
 import brainupkidsimg from "../images/screens/brainupkids/page.jpg"
 import tbimg from "../images/screens/tb/page.jpg"
+import quadimg from "../images/screens/quad/page.jpg"
 import firehead from "../images/screens/firehead/page.jpg"
 import iglomiimg from "../images/screens/iglomi/page.jpg"
 import rnplmsimg from "../images/screens/rnplms/page.jpg"
@@ -38,6 +39,7 @@ const Projects = () => {
     const projects = [
 
         {
+            id: 1,
             name: "Jeu de quiz pour enfants",
             year: "2018",
             description: "Jeu de quiz pour enfants",
@@ -58,6 +60,7 @@ const Projects = () => {
         //     url: "",
         // },
         {
+            id: 2,
             name: "Application Web de voyage (PFE)",
             year: "2019",
             description: "Application Web en Laravel qui gère les destinations touristiques du Monde, permet à n’importe quel utilisateur de trouver les meilleures destinations, préciser et simplifier la recherche, trouver des endroits où ils peuvent faire leurs loisirs et savoir les détails sur le lieu.",
@@ -68,6 +71,7 @@ const Projects = () => {
             url: "/rapportpfe",
         },
         {
+            id: 3,
             name: "Hôtel/Camping",
             year: "2019",
             description: "Application Web en Laravel permet aux utilisateurs de voir les chambres disponibles et effectuer sa réservation avec une méthode de paiement confiant et International (PayPal). elle permet à l’administration d’hôtel de gérer les chambres et les réservations des clients.",
@@ -78,16 +82,18 @@ const Projects = () => {
             url: "",
         },
         {
+            id: 4,
             name: "Location des Quads et tours",
             year: "2019",
             description: "Application Web en Laravel pour les agences touristiques de location des Quads et tours, permet aux utilisateurs de voir les tours et les véhicules fournir par l’agence et effectuer sa réservation (PayPal).\n",
             tech: ["Laravel", "PHP", "Bootstrap", "HTML5/CSS3/JavaScript", "mySQL"],
             strTech: "Laravel, PHP, Bootstrap, HTML5/CSS3/JavaScript, mySQL",
-            picSrc: image,
+            picSrc: quadimg,
             workType: "Travail individuel",
             url: "",
         },
         {
+            id: 5,
             name: "Jeu vidéo en 2d",
             year: "2020",
             description: "unity game 3d",
@@ -98,6 +104,7 @@ const Projects = () => {
             url: "",
         },
         {
+            id: 6,
             name: "Plateforme SIG",
             year: "2021",
             description: "Plateforme web de dématérialisation des procédures et les services en ligne pour le compte de !'Agence Urbaine de Ouarzazate-Zagora-Tinghir",
@@ -108,6 +115,7 @@ const Projects = () => {
             url: "",
         },
         {
+            id: 7,
             name: "Learning Management System",
             year: "2021",
             description: "Application web gèrer le processus d'apprentissage via une ingénierie de formation convenable, pour le Ministère d'Intérieur",
@@ -118,6 +126,7 @@ const Projects = () => {
             url: "",
         },
         {
+            id: 8,
             name: "Learning Management System",
             year: "2021",
             description: "Application LMS avancée",
@@ -128,6 +137,7 @@ const Projects = () => {
             url: "",
         },
         {
+            id: 9,
             name: "Knowledge management system",
             year: "2021",
             description: "Le concept du système de gestion des connaissances (KMS) a pour ambition d'aider les utilisateurs internes créer, partager, structurer et diffuser les connaissances aux utilisateurs ciblés et intéressés.",
@@ -138,6 +148,7 @@ const Projects = () => {
             url: "",
         },
         {
+            id: 10,
             name: "knowledge management system",
             year: "2021",
             description: "Système de gestion des connaissances (KMS)",
@@ -148,6 +159,7 @@ const Projects = () => {
             url: "",
         },
         {
+            id: 11,
             name: "IGLOMI-BS",
             year: "2021",
             description: "BS",
@@ -157,16 +169,17 @@ const Projects = () => {
             workType: "Travail en équipe",
             url: "",
         },
-        {
-            name: "SOMAPORT",
-            year: "2022",
-            description: "SOMAPORT",
-            tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
-            strTech: "Laravel, PHP ,MySql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript",
-            picSrc: image,
-            workType: "Travail en équipe",
-            url: "",
-        },
+        // {
+        // id: 12,
+        //     name: "SOMAPORT",
+        //     year: "2022",
+        //     description: "SOMAPORT",
+        //     tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
+        //     strTech: "Laravel, PHP ,MySql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript",
+        //     picSrc: image,
+        //     workType: "Travail en équipe",
+        //     url: "",
+        // },
     ]
     return (
         <div id="projects" className="mt-5 pt-8">
@@ -174,7 +187,7 @@ const Projects = () => {
                 <Title title="Portfolio" icon={diploma} color="#fff" />
             </div>
             <div className="grid grid-cols-4 gap-8 pt-8 px-24 text-gray-600">
-                {projects.map( p => <ProjectCard data={p}/>)}
+                {projects.map( p => <ProjectCard key={p.id} data={p}/>)}
             </div>
         </div>
     );
