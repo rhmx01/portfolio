@@ -10,7 +10,7 @@ const Title = ({title, icon, color}) => {
         //     <hr className="about-divider mb-5"/>
         // </div>
         <div className="sectiontitle">
-            <h2 style={{color: color}}>{title}</h2>
+            <h2 style={{color: '#1f2235'}}>{title}</h2>
             <span className="headerLine"/>
         </div>
     );

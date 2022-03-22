@@ -37,14 +37,14 @@ const Competances = () => {
 
             <div className="grid grid-cols-2 gap-1 mx-auto">
                 {skills.map( skill => (
-                    <div key={skill.name} className="flex justify-between w-96 items-center text-white border-b mt-4 mx-auto">
+                    <div key={skill.name} className="flex justify-between w-96 items-center text-color border-b mt-4 mx-auto">
                         <h1 className="font-bold text-xl mr-2">{skill.name}</h1>
                         <Rating
                             name="read-only"
                             value={skill.level}
                             readOnly
-                            icon={<Circle className="text-white w-2"/>}
-                            emptyIcon={<CircleOutlined className="text-white w-2"/>}
+                            icon={<Circle className="text-color w-2"/>}
+                            emptyIcon={<CircleOutlined className="text-color w-2"/>}
                         />
                     </div>
                 ))}

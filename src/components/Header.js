@@ -19,28 +19,28 @@ const Header = () => {
     return (
         <header id="about" className="">
 
-            <nav id="nav-wrap" className="w-full flex justify-between items-center nav-bg px-8 lg:px-16">
-                {/*<a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>*/}
-                {/*<a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>*/}
-                <ul className="nav flex items-center">
-                    <li className="logo font-bold text-xl pl-4">HAMMA ALI</li>
-                </ul>
-                <ul id="nav" className="nav">
-                    {/*<li className="current"><a className="font-bold" href="#home">Home</a></li>*/}
-                    <li className={section === 'about' ? "current" :""}><a onClick={() => setSection('about')} className="font-bold" href="#about">À propos</a></li>
-                    <li className={section === 'skills' ? "current" :""}><a onClick={() => setSection('skills')} className="font-bold" href="#skills">Compétences</a></li>
-                    <li className={section === 'work' ? "current" :""}><a onClick={() => setSection('work')} className="font-bold" href="#work">Expérience</a></li>
-                    <li className={section === 'diplomes' ? "current" :""}><a onClick={() => setSection('diplomes')} className="font-bold" href="#diplomes">Diplômes</a></li>
-                    <li className={section === 'projects' ? "current" :""}><a onClick={() => setSection('projects')} className="font-bold" href="#projects">Portfolio</a></li>
-                </ul>
+            {/*<nav id="nav-wrap" className="w-full flex justify-between items-center nav-bg px-8 lg:px-16">*/}
+            {/*    /!*<a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>*!/*/}
+            {/*    /!*<a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>*!/*/}
+            {/*    <ul className="nav flex items-center">*/}
+            {/*        <li className="logo font-bold text-xl pl-4">HAMMA ALI</li>*/}
+            {/*    </ul>*/}
+            {/*    <ul id="nav" className="nav">*/}
+            {/*        /!*<li className="current"><a className="font-bold" href="#home">Home</a></li>*!/*/}
+            {/*        <li className={section === 'about' ? "current" :""}><a onClick={() => setSection('about')} className="font-bold" href="#about">À propos</a></li>*/}
+            {/*        <li className={section === 'skills' ? "current" :""}><a onClick={() => setSection('skills')} className="font-bold" href="#skills">Compétences</a></li>*/}
+            {/*        <li className={section === 'work' ? "current" :""}><a onClick={() => setSection('work')} className="font-bold" href="#work">Expérience</a></li>*/}
+            {/*        <li className={section === 'diplomes' ? "current" :""}><a onClick={() => setSection('diplomes')} className="font-bold" href="#diplomes">Diplômes</a></li>*/}
+            {/*        <li className={section === 'projects' ? "current" :""}><a onClick={() => setSection('projects')} className="font-bold" href="#projects">Portfolio</a></li>*/}
+            {/*    </ul>*/}
 
-            </nav>
+            {/*</nav>*/}
             <div className="pt-16 flex items-center">
-                <div className="flex mx-auto items-center">
-                    <div className="justify-end">
+                <div className="flex py-8 mx-auto items-center">
+                    <div className="justify-end px-4">
                         <img src={pic} alt="mypic" className="flex w-72 h-72 rounded-full shadow-xl"/>
                     </div>
-                    <div className=" text-white">
+                    <div className="text-color">
                         <h1 className="p-4 font-bold header-name text-left">{data_fr.name}</h1>
                         <p className="p-4 text-left max-w-2xl">{data_fr.description}</p>
                         <div className="p-4 flex mx-auto">

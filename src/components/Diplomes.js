@@ -9,7 +9,7 @@ const Diplomes = () => {
             <div className=" my-5">
                 <Title title="Diplômes" icon={diploma} color="#fff" />
             </div>
-            <div className=" text-white grid gap-8 w-fit mx-auto">
+            <div className="text-color grid gap-8 w-fit mx-auto">
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2019: </span></p>
                     <p className="f6"><u>Licence</u> fondamentale en sciences Mathématiques, Informatique et Applications au sein de la faculté Polydisciplinaire d’OUARZAZATE.</p>
