@@ -1,14 +1,12 @@
 import React from 'react';
-import linkedin from "../images/media-icons/linkedin.svg";
-import github from "../images/media-icons/github.svg";
-import medium from "../images/media-icons/medium.svg";
 import Title from "./Title";
 import work from "../images/work.png";
-import {AddLocation, Circle, CircleOutlined, Email, Phone, Public} from "@mui/icons-material";
+import boxeicon from "../images/boxe.png";
+import cookingicon from "../images/cooking.png";
+import {Circle, CircleOutlined, Email, Phone, Public} from "@mui/icons-material";
 import {Rating} from "@mui/material";
 
 const About = () => {
-    const pic = "https://firebasestorage.googleapis.com/v0/b/testimageview.appspot.com/o/photo2.png?alt=media&token=79e416b2-6a5c-472d-a2bc-0b0b640d94f5";
 
     const data_fr = {
         name: "Rachid Hamma Ali.",
@@ -21,7 +19,7 @@ const About = () => {
         {name: "Tamazight", level: 5},
         ]
     return (
-        <div id="" className="mt-5 py-8">
+        <div id="" className="py-8">
             <div className="mt-5 mb-5">
                 <Title title="À propos de moi" className="text-color" icon={work} color="#fff"/>
             </div>
@@ -39,13 +37,13 @@ const About = () => {
                         <h3 className="font-bold">Situation : Célibataire</h3>
                         <h3 className="font-bold">Permis de Conduire (B) : 2019</h3>
                     </div>
-                    <div className="p-4 px-8 border-l">
+                    <div className="p-4 px-8 border-l order-slate-800">
                         <h1 className="mb-4 font-bold text-2xl uppercase">Contact</h1>
                         <h3 className="mb-4 font-bold"><a href="mailto:rachid@hammaali.ma"><Email/> rachid@hammaali.ma</a></h3>
                         <h3 className="mb-4 font-bold"><a href="tel:0696227119"><Phone/> +(212) 696 22 71 19</a></h3>
                         <h3 className="mb-4 font-bold"><Public/> <a href="https://hammaali.ma/" target="_blank">www.hammaali.ma</a></h3>
                     </div>
-                    <div className="p-4 px-8 border-l">
+                    <div className="p-4 px-8 border-l order-slate-800">
                         <h1 className="mb-4 font-bold text-2xl uppercase">Langages</h1>
                         {langages.map( skill => (
                             <div key={skill.name} className="flex justify-between mt-4 mx-auto">
@@ -60,8 +58,8 @@ const About = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="p-4 px-8 border-l grid grid-cols-2 gap-2 w-fit">
-                        <h1 className="mb-3 font-bold text-2xl uppercase col-span-2">Loisirs</h1>
+                    <div className="p-4 px-8 border-l order-slate-800 grid grid-cols-3 gap-2 w-fit">
+                        <h1 className="mb-3 font-bold text-2xl uppercase col-span-3">Loisirs</h1>
                         <div className="bg-dark-blue p-4 rounded-full w-fit h-fit mx-auto">
                             <img src="https://firebasestorage.googleapis.com/v0/b/testimageview.appspot.com/o/s.png?alt=media&token=24d6f552-55d6-42b5-a607-4e48040a57f7" alt="mypic" className="m-auto"/>
                         </div>
@@ -73,6 +71,12 @@ const About = () => {
                         </div>
                         <div className="bg-dark-blue p-4 rounded-full w-fit h-fit m-auto">
                             <img src="https://firebasestorage.googleapis.com/v0/b/testimageview.appspot.com/o/g.png?alt=media&token=09525ccf-8c90-47ac-8498-daa0fb68641b" alt="mypic" className="m-auto"/>
+                        </div>
+                        <div className="bg-dark-blue p-4 rounded-full w-fit h-fit m-auto">
+                            <img src={boxeicon} alt="mypic" className="m-auto"/>
+                        </div>
+                        <div className="bg-dark-blue p-4 rounded-full w-fit h-fit m-auto">
+                            <img src={cookingicon} alt="mypic" className="m-auto"/>
                         </div>
                     </div>
 

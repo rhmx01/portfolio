@@ -5,7 +5,7 @@ import Title from "./Title";
 
 const Diplomes = () => {
     return (
-        <div id="diplomes" className="py-16 mt-5">
+        <div id="diplomes" className="py-16">
             <div className=" my-5">
                 <Title title="Diplômes" icon={diploma} color="#fff" />
             </div>

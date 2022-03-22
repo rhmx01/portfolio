@@ -30,7 +30,7 @@ const Competances = () => {
         {name: "Photoshop", level: 4},
     ];
     return (
-        <div id="skills" className="mt-5 py-8">
+        <div id="skills" className="py-8">
             <div className=" mt-5 mb-5">
                 <Title title="Compétences" icon={work} color="#fff"/>
             </div>

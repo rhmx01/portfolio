@@ -347,3 +347,7 @@ table span{
 .text-color{
     color: #1f2235;
 }
+
+.border-l, .border-b {
+    border-color: #bdc2c9;
+}
