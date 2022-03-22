@@ -13,11 +13,13 @@ function App() {
         <div className="App mb-8">
             <Header/>
 
-            <About/>
+            <div className="" >
+                <About/>
+            </div>
             <Container>
                 <Competances/>
             </Container>
-            <div className="bg-white" >
+            <div className="" >
                 <Experiences/>
             </div>
 

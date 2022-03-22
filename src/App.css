@@ -11,8 +11,10 @@ body{
     background: -webkit-linear-gradient(top, #DFDFE1 0%, #F5F6FA 44%, #FFFFFF 100%);
     background: linear-gradient(to bottom, #DFDFE1 0%, #F5F6FA 44%, #FFFFFF 100%); */
     /*#ff4a57*/
-    background: #1f2235;
+    /*background: #f1f2f6;*/
     /*background: linear-gradient(86deg, rgba(225, 177, 44,0.2) 7%, rgba(225, 177, 44,0.6) 41%, rgba(225, 177, 44,0.8) 70%, rgba(225, 177, 44,1) 100%);*/
+    background: rgb(206,214,224);
+    background: linear-gradient(0deg, rgba(206,214,224,1) 29%, rgba(223,228,234,1) 40%, rgba(241,242,246,1) 84%, rgba(255,255,255,1) 96%);
     color: #0f1f2f !important;
     line-height: 30px !important;
     min-width: 1335px !important;
@@ -339,5 +341,9 @@ table span{
     background: #0f1f2f;
 }
 .text-dark-blue{
+    color: #1f2235;
+}
+
+.text-color{
     color: #1f2235;
 }
