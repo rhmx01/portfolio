@@ -3,9 +3,10 @@ import React, {useState} from 'react';
 import linkedin from "../images/media-icons/linkedin.svg"
 import github from "../images/media-icons/github.svg"
 import medium from "../images/media-icons/medium.svg"
+import photosm from "../images/photo-sm.jpg"
 
 const Header = () => {
-    const pic = "https://firebasestorage.googleapis.com/v0/b/testimageview.appspot.com/o/photo2.png?alt=media&token=79e416b2-6a5c-472d-a2bc-0b0b640d94f5";
+    // const pic = "https://firebasestorage.googleapis.com/v0/b/testimageview.appspot.com/o/photo2.png?alt=media&token=79e416b2-6a5c-472d-a2bc-0b0b640d94f5";
 
     const data_fr = {
         name: "Rachid Hamma Ali.",
@@ -38,7 +39,7 @@ const Header = () => {
             <div className="pt-16 flex items-center">
                 <div className="flex py-8 mx-auto items-center">
                     <div className="justify-end px-4">
-                        <img src={pic} alt="mypic" className="flex w-72 h-72 rounded-full shadow-xl"/>
+                        <img src={photosm} alt="mypic" className="flex w-72 h-72 rounded-full shadow-xl"/>
                     </div>
                     <div className="text-color">
                         <h1 className="p-4 font-bold header-name text-left">{data_fr.name}</h1>
