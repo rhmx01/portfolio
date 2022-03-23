@@ -6,7 +6,7 @@ import {ArrowRight, Event, Flag} from "@mui/icons-material";
 const Experiences = () => {
     const data_fr = {
         job: "Ingénieur de projet",
-        date: "March 2020 - Présent",
+        date: "Mars 2020 - Présent",
         compagny: "Bluescratch, Casablanca",
         projects: [
             {

@@ -6,7 +6,7 @@ import {Circle, CircleOutlined} from "@mui/icons-material";
 
 const Competances = () => {
     const skills = [
-        {name: "React js", level: 5},
+        {name: "React JS", level: 5},
         {name: "JavaScript", level: 5},
         {name: "Laravel", level: 5},
         {name: "PHP", level: 5},

@@ -20,7 +20,7 @@ const Diplomes = () => {
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2015: </span></p>
-                    <p className="f6">Diplôme <u>Baccalauréat</u> en sciences Physique au sien de LYCÉE ABOU BAKR SEDDIK OUARZAZATE.</p>
+                    <p className="f6">Diplôme <u>Baccalauréat</u> en sciences Physique au sien du LYCÉE ABOU BAKR SEDDIK OUARZAZATE.</p>
                 </div>
             </div>
         </div>
