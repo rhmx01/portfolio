@@ -10,7 +10,7 @@ import About from "./components/About";
 
 function App() {
     return (
-        <div className="App mb-8">
+        <div className="App mb-16">
             <Header/>
 
             <div className="" >
