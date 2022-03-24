@@ -183,7 +183,7 @@ const Projects = () => {
         // },
     ]
     return (
-        <div id="projects" className="pt-8">
+        <div id="projects" className="py-16">
             <div className=" my-5">
                 <Title title="Portfolio" icon={diploma} color="#fff" />
             </div>

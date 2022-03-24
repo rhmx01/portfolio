@@ -20,7 +20,7 @@ const Header = () => {
     return (
         <header id="about" className="">
 
-            {/*<nav id="nav-wrap" className="w-full flex justify-between items-center nav-bg px-8 lg:px-16">*/}
+            {/*<nav id="nav-wrap" className="w-full flex justify-between items-center nav-bg px-8 py-4 lg:px-16">*/}
             {/*    /!*<a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>*!/*/}
             {/*    /!*<a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>*!/*/}
             {/*    <ul className="nav flex items-center">*/}
@@ -34,14 +34,13 @@ const Header = () => {
             {/*        <li className={section === 'diplomes' ? "current" :""}><a onClick={() => setSection('diplomes')} className="font-bold" href="#diplomes">Diplômes</a></li>*/}
             {/*        <li className={section === 'projects' ? "current" :""}><a onClick={() => setSection('projects')} className="font-bold" href="#projects">Portfolio</a></li>*/}
             {/*    </ul>*/}
-
             {/*</nav>*/}
             <div className="pt-16 flex items-center">
                 <div className="flex py-8 mx-auto items-center">
                     <div className="justify-end px-4">
-                        <img src={photosm} alt="mypic" className="flex w-72 h-72 rounded-full shadow-xl"/>
+                        <img id="profilepic" src={photosm} alt="Rachid hamma ali" className="flex w-72 h-72 rounded-full shadow-xl"/>
                     </div>
-                    <div className="text-color">
+                    <div id="profiledescription" className="text-color">
                         <h1 className="p-4 font-bold header-name text-left">{data_fr.name}</h1>
                         <p className="p-4 text-left max-w-2xl">{data_fr.description}</p>
                         <div className="p-4 flex mx-auto">

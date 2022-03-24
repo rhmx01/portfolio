@@ -351,3 +351,51 @@ table span{
 .border-l, .border-b {
     border-color: #bdc2c9;
 }
+
+/*#profilepic {*/
+/*    opacity: 0;*/
+/*}*/
+
+/*#profilepic:target {*/
+/*    -webkit-transition: opacity 2.0s ease-in;*/
+/*    -moz-transition: opacity 2.0s ease-in;*/
+/*    -o-transition: opacity 2.0s ease-in;*/
+/*    opacity: 1;*/
+/*}*/
+
+/*#profilepic {*/
+/*    position:initial;*/
+/*    animation-name: fadeInOpacity;*/
+/*    animation-iteration-count: 1;*/
+/*    animation-timing-function: ease-in;*/
+/*    animation-duration: 1s;*/
+/*}*/
+
+/*#profilepic{*/
+/*    animation-duration: 1s;*/
+/*}*/
+/*#details{*/
+/*    animation-duration: 1s;*/
+/*}*/
+/*#contact{*/
+/*    animation-duration: 1.3s;*/
+/*}*/
+/*#langages{*/
+/*    animation-duration: 1.5s;*/
+/*}*/
+/*#interests{*/
+/*    animation-duration: 1.8s;*/
+/*}*/
+/*#profiledescription{*/
+/*    animation-duration: 2s;*/
+/*}*/
+
+/*@keyframes fadeInOpacity {*/
+/*    0% {*/
+/*        position: absolute;*/
+/*        left: 0;*/
+/*    }*/
+/*    100% {*/
+/*        position:initial;*/
+/*    }*/
+/*}*/

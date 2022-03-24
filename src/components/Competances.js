@@ -6,19 +6,19 @@ import {Circle, CircleOutlined} from "@mui/icons-material";
 
 const Competances = () => {
     const skills = [
-        {name: "React JS", level: 5},
-        {name: "JavaScript", level: 5},
-        {name: "Laravel", level: 5},
+        {name: "React JS", level: 4},
+        {name: "JavaScript", level: 4},
+        {name: "Laravel", level: 4},
         {name: "PHP", level: 5},
         {name: "Spring Boot", level: 4},
         {name: "Java", level: 4},
-        {name: "Redux-Saga", level: 5},
+        {name: "Redux-Saga", level: 4},
         {name: "C#", level: 3},
-        {name: "REST/RESTful API", level: 5},
+        {name: "REST/RESTful API", level: 4},
         {name: "SQL(mysql, postgresql)", level: 5},
         {name: "Git/Github", level: 4},
         {name: "Liferay", level: 3},
-        {name: "Moodle", level: 5},
+        {name: "Moodle", level: 4},
         // {name: "Gestion de projet", level: 3},
         {name: "DevOps", level: 3},
         {name: "SEO", level: 3},
@@ -30,7 +30,7 @@ const Competances = () => {
         {name: "Photoshop", level: 4},
     ];
     return (
-        <div id="skills" className="py-8">
+        <div id="skills" className="pt-16">
             <div className=" mt-5 mb-5">
                 <Title title="Compétences" icon={work} color="#fff"/>
             </div>

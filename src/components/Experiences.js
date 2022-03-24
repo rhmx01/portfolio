@@ -47,7 +47,7 @@ const Experiences = () => {
         ],
     }
     return (
-        <div id="work" className="pt-8">
+        <div id="work" className="pt-16">
             <div className=" mt-5 mb-5">
                 <Title title="Expérience Professionnelle" icon={work} color="#1f2235"/>
             </div>

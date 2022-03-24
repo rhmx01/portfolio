@@ -12,11 +12,11 @@ const Diplomes = () => {
             <div className="text-color grid gap-8 w-fit mx-auto">
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2019: </span></p>
-                    <p className="f6"><u>Licence</u> fondamentale en sciences Mathématiques, Informatique et Applications au sein de la faculté Polydisciplinaire d’OUARZAZATE.</p>
+                    <p className="f6"><u>Licence</u> fondamentale en Sciences Mathématiques, Informatique et Applications (SMIA) au sein de la faculté Polydisciplinaire d’OUARZAZATE.</p>
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2018: </span></p>
-                    <p className="f6"><u>DEUG</u> en sciences Mathématique, Informatique et Applications au sein de la faculté Polydisciplinaire d’OUARZAZATE.</p>
+                    <p className="f6"><u>DEUG</u> en Sciences Mathématique, Informatique et Applications (SMIA) au sein de la faculté Polydisciplinaire d’OUARZAZATE.</p>
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2015: </span></p>
