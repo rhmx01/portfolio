@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import linkedin from "../images/media-icons/linkedin.svg"
 import github from "../images/media-icons/github.svg"
 import medium from "../images/media-icons/medium.svg"
+import twitter from "../images/media-icons/twitter.svg"
 import photosm from "../images/photo-sm.jpg"
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
 
     const data_fr = {
         name: "Rachid Hamma Ali.",
-        description: "Ingénieur de projet avec +3 ans d'expérience dans les technologies de l'information, principalement dans les grands projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
+        description: "Ingénieur de projet avec +3 ans d'expérience dans les technologies de l'information, principalement dans les projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
     }
     const data_en = {
         name: "Rachid hamma ali.",
@@ -46,7 +47,7 @@ const Header = () => {
                         <div className="p-4 flex mx-auto">
                             <a href="https://www.linkedin.com/in/hammaali" target="_blank" rel="noreferrer"><img src={linkedin} alt="Rachid hamma ali linkedIn profile" className="social-icons p-1 rounded-md"/></a>
                             <a href="https://github.com/rhmx01" target="_blank" rel="noreferrer"><img src={github} alt="Rachid hamma ali github profile" className="social-icons p-1 rounded-md"/></a>
-                            <a href="https://twitter.com/r_hammaali" target="_blank" rel="noreferrer"><img src={medium} alt="Rachid hamma ali on twitter" className="social-icons p-1 rounded-md"/></a>
+                            <a href="https://twitter.com/r_hammaali" target="_blank" rel="noreferrer"><img src={twitter} alt="Rachid hamma ali on twitter" className="social-icons p-1 rounded-md"/></a>
                             <a href="https://hammaali.medium.com" target="_blank" rel="noreferrer"><img src={medium} alt="Rachid hamma ali medium profile" className="social-icons p-1 rounded-md"/></a>
                         </div>
                     </div>

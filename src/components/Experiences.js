@@ -32,7 +32,7 @@ const Experiences = () => {
             {
                 id: 5,
                 title: "Knowledge management system (KMS)",
-                description: "Travail en équipe pour développer une application KMS avec Liferay pour le Ministère d'Intérieur"
+                description: "Travail individuel pour développer une application KMS avec Liferay pour le Ministère d'Intérieur"
             },
             {
                 id: 6,

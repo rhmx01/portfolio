@@ -28,15 +28,15 @@ const Diplomes = () => {
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2022: </span></p>
-                    <p className="f6">Spring Boot <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/57B72F32">Voir <OpenInNew/></a></p>
+                    <p className="f6">Certificat de Spring Boot <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/57B72F32">Voir <OpenInNew/></a></p>
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2022: </span></p>
-                    <p className="f6">Laravel Advanced <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/3AF0B681">Voir <OpenInNew/></a></p>
+                    <p className="f6">Certificat de Laravel Advanced <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/3AF0B681">Voir <OpenInNew/></a></p>
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2021: </span></p>
-                    <p className="f6">React JS + REDUX + HOOKS <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/98945728">Voir <OpenInNew/></a></p>
+                    <p className="f6">Certificat de React JS & REDUX <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/98945728">Voir <OpenInNew/></a></p>
                 </div>
             </div>
 
