@@ -7,6 +7,7 @@ import Diplomes from "./components/Diplomes";
 import Experiences from "./components/Experiences";
 import Competances from "./components/Competances";
 import About from "./components/About";
+import Certificates from "./components/Certificates";
 
 function App() {
     return (
@@ -26,6 +27,9 @@ function App() {
             <Container  maxWidth="xl">
                 <Diplomes/>
             </Container>
+            {/*<Container  maxWidth="xl">*/}
+            {/*    <Certificates/>*/}
+            {/*</Container>*/}
 
             <Container  maxWidth="xl">
                 <Projects/>

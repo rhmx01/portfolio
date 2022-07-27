@@ -44,9 +44,10 @@ const Header = () => {
                         <h1 className="p-4 font-bold header-name text-left">{data_fr.name}</h1>
                         <p className="p-4 text-left max-w-2xl">{data_fr.description}</p>
                         <div className="p-4 flex mx-auto">
-                            <a href="https://www.linkedin.com/in/rhmx/" target="_blank" rel="noreferrer"><img src={linkedin} alt="Rachid hamma ali linkedIn profile" className="social-icons p-1 rounded-md"/></a>
+                            <a href="https://www.linkedin.com/in/hammaali" target="_blank" rel="noreferrer"><img src={linkedin} alt="Rachid hamma ali linkedIn profile" className="social-icons p-1 rounded-md"/></a>
                             <a href="https://github.com/rhmx01" target="_blank" rel="noreferrer"><img src={github} alt="Rachid hamma ali github profile" className="social-icons p-1 rounded-md"/></a>
-                            <a href="https://rhmx01.medium.com" target="_blank" rel="noreferrer"><img src={medium} alt="Rachid hamma ali medium profile" className="social-icons p-1 rounded-md"/></a>
+                            <a href="https://twitter.com/r_hammaali" target="_blank" rel="noreferrer"><img src={medium} alt="Rachid hamma ali on twitter" className="social-icons p-1 rounded-md"/></a>
+                            <a href="https://hammaali.medium.com" target="_blank" rel="noreferrer"><img src={medium} alt="Rachid hamma ali medium profile" className="social-icons p-1 rounded-md"/></a>
                         </div>
                     </div>
                 </div>
