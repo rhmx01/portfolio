@@ -37,7 +37,7 @@ const Projects = () => {
     // openshift
     // VM ubuntu/centos/windows
     // docker
-    const projects = [
+    const projects_fr = [
 
         {
             id: 1,
@@ -182,13 +182,158 @@ const Projects = () => {
         //     url: "",
         // },
     ]
+    const projects_en = [
+
+        {
+            id: 1,
+            name: "Quiz game for kids",
+            year: "2018",
+            description: "Quiz game for kids",
+            tech: ["Android studio", "Java", "XML"],
+            strTech: "Android studio, Java, XML",
+            picSrc: brainupkidsimg,
+            workType: "Individual work",
+            url: "",
+        },
+        // {
+        //     name: "GOT season 8 countdown episodes",
+        //     year: "2018",
+        //     description: "app countdown of season 8 of game of thrones",
+        //     tech: ["Android studio", "Java", "XML"],
+        //     strTech: "Android studio, Java, XML",
+        //     picSrc: "/ekfkze",
+        //     workType: "Individual work",
+        //     url: "",
+        // },
+        {
+            id: 2,
+            name: "Web application for tourist destinations",
+            year: "2019",
+            description: "Web application in Laravel that manages the tourist destinations of the World, allows any user to find the best destinations and simplify the search, find places where they can do their hobbies and get the details about the destination.",
+            tech: ["Laravel", "PHP", "Bootstrap", "HTML5/CSS3/JavaScript", "mySQL"],
+            strTech: "Laravel, PHP, Bootstrap, HTML5/CSS3/JavaScript, mySQL",
+            picSrc: tbimg,
+            workType: "Individual work",
+            url: "/rapportpfe",
+        },
+        {
+            id: 3,
+            name: "Manage hotel reservations",
+            year: "2019",
+            description: "Web application in Laravel allows users to see available rooms and make their reservation with a confident and International payment method (PayPal). it allows the hotel administration to manage guest rooms and reservations.",
+            tech: ["Laravel", "PHP", "Bootstrap", "HTML5/CSS3/JavaScript", "mySQL", "PayPal Gateway"],
+            strTech: "Laravel, PHP, Bootstrap, HTML5/CSS3/JavaScript, mySQL, PayPal Gateway",
+            picSrc: campingimg,
+            workType: "Individual work",
+            url: "",
+        },
+        {
+            id: 4,
+            name: "Rental of Quads and Buggies",
+            year: "2019",
+            description: "Web application in Laravel for tourist agencies renting Quads and Buggies, allows users to see the vehicles provided by the agency and make their reservation (PayPal).",
+            tech: ["Laravel", "PHP", "Bootstrap", "HTML5/CSS3/JavaScript", "mySQL"],
+            strTech: "Laravel, PHP, Bootstrap, HTML5/CSS3/JavaScript, mySQL",
+            picSrc: quadimg,
+            workType: "Individual work",
+            url: "",
+        },
+        // {
+        //     id: 5,
+        //     name: "Jeu vidéo en 2d",
+        //     year: "2020",
+        //     description: "unity game 3d",
+        //     tech: ["Unity 3D", "C#", "Photoshop"],
+        //     strTech: "Unity 3D, C#, Photoshop",
+        //     picSrc: firehead,
+        //     workType: "Individual work",
+        //     url: "",
+        // },
+        {
+            id: 6,
+            name: "Geographic Information System (GIS)",
+            year: "2021",
+            description: "Web platform for the dematerialization of procedures and online services on behalf of the Ouarzazate-Zagora-Tinghir Urban Agency",
+            tech: ["Laravel", "PHP" ,"Postgresql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript", "OpenLayers"],
+            strTech: "Laravel, PHP ,Postgresql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript, OpenLayers",
+            picSrc: sigimg,
+            workType: "Teamwork",
+            url: "",
+        },
+        {
+            id: 7,
+            name: "Learning Management System",
+            year: "2021",
+            description: "Application web gèrer le processus d'apprentissage via une ingénierie de formation convenable, pour le Ministère d'Intérieur",
+            tech: ["Moodle", "Postgresql", "PHP", "Mustache", "Bootstrap"],
+            strTech: "Moodle, Postgresql, PHP, Mustache, Bootstrap",
+            picSrc: rnplmsimg,
+            workType: "Individual work",
+            url: "",
+        },
+        {
+            id: 8,
+            name: "Learning Management System",
+            year: "2021",
+            description: "Advanced LMS app",
+            tech: ["Spring boot", "Java", "Mysql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
+            strTech: "Spring boot, Java, Mysql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript",
+            picSrc: bslmsimg,
+            workType: "Teamwork",
+            url: "",
+        },
+        {
+            id: 9,
+            name: "Knowledge management system",
+            year: "2021",
+            description: "The concept of Knowledge Management System (KMS) aims to help internal users create, share, structure and disseminate knowledge to targeted and interested users.",
+            tech: ["Liferay", "Postgresql"],
+            strTech: "Liferay, Postgresql",
+            picSrc: rnpkmsimg,
+            workType: "Teamwork",
+            url: "",
+        },
+        {
+            id: 10,
+            name: "Knowledge management system",
+            year: "2021",
+            description: "Knowledge Management System (KMS)",
+            tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
+            strTech: "Laravel, PHP ,MySql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript",
+            picSrc: bskmsimg,
+            workType: "Teamwork",
+            url: "",
+        },
+        {
+            id: 11,
+            name: "Intermediate platform between experts & companies",
+            year: "2021",
+            description: "Intermediate platform between experts & companies",
+            tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
+            strTech: "Laravel, PHP ,MySql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript",
+            picSrc: iglomiimg,
+            workType: "Teamwork",
+            url: "",
+        },
+        // {
+        // id: 12,
+        //     name: "SOMAPORT",
+        //     year: "2022",
+        //     description: "SOMAPORT",
+        //     tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
+        //     strTech: "Laravel, PHP ,MySql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript",
+        //     picSrc: image,
+        //     workType: "Teamwork",
+        //     url: "",
+        // },
+    ]
     return (
         <div id="projects" className="py-16">
             <div className=" my-5">
                 <Title title="Portfolio" icon={diploma} color="#fff" />
             </div>
             <div className="grid grid-cols-4 gap-8 pt-8 px-24 text-gray-600">
-                {projects.map( p => <ProjectCard key={p.id} data={p}/>)}
+                {projects_en.map( p => <ProjectCard key={p.id} data={p}/>)}
             </div>
         </div>
     );

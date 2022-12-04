@@ -31,6 +31,7 @@ const About = () => {
                         <h3 className="font-bold">Age : 25 years old</h3>
                         {/*<h3 className="font-bold">Né le : 26-03-1997</h3>*/}
                         <h3 className="font-bold">Situation : Single</h3>
+                        <br/>
                         {/*<h3 className="font-bold">Permis de Conduire (B) : 2019</h3>*/}
                     </div>
                     <div id="contact" className="p-4 px-8 border-l order-slate-800">

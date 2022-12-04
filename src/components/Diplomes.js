@@ -17,26 +17,26 @@ const Diplomes = () => {
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2018: </span></p>
-                    <p className="f6"><u>DEUG</u> en Sciences Mathématique, Informatique et Applications (SMIA) au sein de la faculté Polydisciplinaire d’OUARZAZATE.</p>
+                    <p className="f6"><u>DEUG</u> in Mathematics, Computer Science and Applications (SMIA) within the Polydisciplinary Faculty of OUARZAZATE.</p>
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2015: </span></p>
-                    <p className="f6">Diplôme <u>Baccalauréat</u> en sciences Physique au sien du LYCÉE ABOU BAKR SEDDIK OUARZAZATE.</p>
+                    <p className="f6"><u>Baccalaureate degree</u> in Physics at the ABOU BAKR SEDDIK high school OUARZAZATE.</p>
                 </div>
                 <div className=" my-5">
-                    <Title title="Certificats" icon={diploma} color="#fff" />
+                    <Title title="Certificates" icon={diploma} color="#fff" />
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2022: </span></p>
-                    <p className="f6">Certificat de <u>Spring Boot</u> <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/57B72F32">Voir <OpenInNew/></a></p>
+                    <p className="f6">Certificate of <u>Spring Boot</u> <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/57B72F32">Voir <OpenInNew/></a></p>
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2022: </span></p>
-                    <p className="f6">Certificat de <u>Laravel Advanced</u> <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/3AF0B681">Voir <OpenInNew/></a></p>
+                    <p className="f6">Certificate of <u>Laravel Advanced</u> <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/3AF0B681">Voir <OpenInNew/></a></p>
                 </div>
                 <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2021: </span></p>
-                    <p className="f6">Certificat de <u>React JS & REDUX</u> <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/98945728">Voir <OpenInNew/></a></p>
+                    <p className="f6">Certificate of <u>React JS & REDUX</u> <a className="ml-2" href="https://brightcoding.dev/certificate/hamma-ali-rachid/98945728">Voir <OpenInNew/></a></p>
                 </div>
             </div>
 

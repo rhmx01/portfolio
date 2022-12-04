@@ -42,7 +42,7 @@ const ProjectCard = ({data}) => {
                 </div>
                 <div className="flex justify-end  w-full absolute bottom-0 p-2">
                     {/*<h2 className="mt-4 italic">{data.workType}</h2>*/}
-                    <Button variant="contained" onClick={handleOpen}>Détails</Button>
+                    <Button variant="contained" onClick={handleOpen}>Details</Button>
                 </div>
 
             </div>
