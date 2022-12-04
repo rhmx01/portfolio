@@ -11,11 +11,11 @@ const Header = () => {
 
     const data_fr = {
         name: "Rachid Hamma Ali.",
-        description: "Ingénieur de projet avec +3 ans d'expérience dans les technologies de l'information, principalement dans les projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
+        description: "Ingénieur de projet avec +4 ans d'expérience dans les technologies de l'information, principalement dans les projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
     }
     const data_en = {
         name: "Rachid hamma ali.",
-        description: "Project Engineer with +3 years of experience in the information technology, mostly in large projects like Geographic Information System (SIG) & learning management systems (LMS)"
+        description: "Project Engineer with +4 years of experience in the IT industry, mostly in learning management systems (LMS). Skilled in React JS, Redux-saga, Spring Boot, Laravel, Liferay and Moodle."
     }
     const [section, setSection] = useState('about')
     return (
@@ -42,12 +42,12 @@ const Header = () => {
                         <img id="profilepic" src={photosm} alt="Rachid hamma ali" className="flex w-72 h-72 rounded-full shadow-xl"/>
                     </div>
                     <div id="profiledescription" className="text-color">
-                        <h1 className="p-4 font-bold header-name text-left">{data_fr.name}</h1>
-                        <p className="p-4 text-left max-w-2xl">{data_fr.description}</p>
+                        <h1 className="p-4 font-bold header-name text-left">{data_en.name}</h1>
+                        <p className="p-4 text-left max-w-2xl">{data_en.description}</p>
                         <div className="p-4 flex mx-auto">
                             <a href="https://www.linkedin.com/in/hammaali" target="_blank" rel="noreferrer"><img src={linkedin} alt="Rachid hamma ali linkedIn profile" className="social-icons p-1 rounded-md"/></a>
                             <a href="https://github.com/rhmx01" target="_blank" rel="noreferrer"><img src={github} alt="Rachid hamma ali github profile" className="social-icons p-1 rounded-md"/></a>
-                            <a href="https://twitter.com/r_hammaali" target="_blank" rel="noreferrer"><img src={twitter} alt="Rachid hamma ali on twitter" className="social-icons p-1 rounded-md"/></a>
+                            {/*<a href="https://twitter.com/r_hammaali" target="_blank" rel="noreferrer"><img src={twitter} alt="Rachid hamma ali on twitter" className="social-icons p-1 rounded-md"/></a>*/}
                             <a href="https://hammaali.medium.com" target="_blank" rel="noreferrer"><img src={medium} alt="Rachid hamma ali medium profile" className="social-icons p-1 rounded-md"/></a>
                         </div>
                     </div>

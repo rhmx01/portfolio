@@ -30,7 +30,7 @@ const ProjectCard = ({data}) => {
                         </div>
                     </div>
                     <div className="px-2">
-                        <h3 className="font-bold">{data.name}</h3>
+                        <h3 className="font-bold mt-3">{data.name}</h3>
                         {/*<p>{data.description}</p>*/}
                         {/*<h3 className="underline font-bold text-xl mt-4">Besoins Techniques :</h3>*/}
                         {/*<p className="font-bold">*/}
@@ -53,12 +53,22 @@ const ProjectCard = ({data}) => {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-                        Bonjour :)
-                    </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        Cette partie n'est pas encore terminée, veuillez essayer plus tard ou contactez-moi pour vous envoyer les détails.
-                    </Typography>
+
+                    <div>
+                        <h1 className="font-bold text-lg">{data.year}: {data.name}</h1>
+                        <p>{data.description}</p>
+                        <h4 className="font-bold underline">Requirement:</h4>
+                        <p>{data.strTech}</p>
+                        <h3 className="font-bold">({data.workType})</h3>
+                    </div>
+
+
+                    {/*<Typography id="modal-modal-title" variant="h6" component="h2">*/}
+                    {/*    Bonjour :)*/}
+                    {/*</Typography>*/}
+                    {/*<Typography id="modal-modal-description" sx={{ mt: 2 }}>*/}
+                    {/*    Cette partie n'est pas encore terminée, veuillez essayer plus tard ou contactez-moi pour vous envoyer les détails.*/}
+                    {/*</Typography>*/}
                 </Box>
             </Modal>
         </div>
