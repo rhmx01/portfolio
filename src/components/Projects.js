@@ -41,11 +41,11 @@ const Projects = () => {
 
         {
             id: 1,
-            name: "Jeu de quiz pour enfants",
+            name: "Jeu de quiz pour enfants, , (Laravel)",
             year: "2018",
             description: "Jeu de quiz pour enfants",
-            tech: ["Android studio", "Java", "XML"],
-            strTech: "Android studio, Java, XML",
+            tech: ["Android studio", "Java"],
+            strTech: "Android studio, Java",
             picSrc: brainupkidsimg,
             workType: "Travail individuel",
             url: "",
@@ -106,7 +106,7 @@ const Projects = () => {
         },
         {
             id: 6,
-            name: "Système d'information géographique (SIG)",
+            name: "Système d'information géographique (SIG), (React JS, Laravel API)",
             year: "2021",
             description: "Plateforme web de dématérialisation des procédures et les services en ligne pour le compte de !'Agence Urbaine de Ouarzazate-Zagora-Tinghir",
             tech: ["Laravel", "PHP" ,"Postgresql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript", "OpenLayers"],
@@ -186,11 +186,11 @@ const Projects = () => {
 
         {
             id: 1,
-            name: "Quiz game for kids",
+            name: "Quiz game for kids, (Android studio)",
             year: "2018",
             description: "Quiz game for kids",
-            tech: ["Android studio", "Java", "XML"],
-            strTech: "Android studio, Java, XML",
+            tech: ["Android studio", "Java"],
+            strTech: "Android studio, Java",
             picSrc: brainupkidsimg,
             workType: "Individual work",
             url: "",
@@ -207,7 +207,7 @@ const Projects = () => {
         // },
         {
             id: 2,
-            name: "Web application for tourist destinations",
+            name: "Web application for tourist destinations, (Laravel MVC)",
             year: "2019",
             description: "Web application in Laravel that manages the tourist destinations of the World, allows any user to find the best destinations and simplify the search, find places where they can do their hobbies and get the details about the destination.",
             tech: ["Laravel", "PHP", "Bootstrap", "HTML5/CSS3/JavaScript", "mySQL"],
@@ -218,7 +218,7 @@ const Projects = () => {
         },
         {
             id: 3,
-            name: "Manage hotel reservations",
+            name: "Manage hotel reservations, (Laravel MVC)",
             year: "2019",
             description: "Web application in Laravel allows users to see available rooms and make their reservation with a confident and International payment method (PayPal). it allows the hotel administration to manage guest rooms and reservations.",
             tech: ["Laravel", "PHP", "Bootstrap", "HTML5/CSS3/JavaScript", "mySQL", "PayPal Gateway"],
@@ -229,7 +229,7 @@ const Projects = () => {
         },
         {
             id: 4,
-            name: "Rental of Quads and Buggies",
+            name: "Rental of Quads and Buggies, (Laravel MVC)",
             year: "2019",
             description: "Web application in Laravel for tourist agencies renting Quads and Buggies, allows users to see the vehicles provided by the agency and make their reservation (PayPal).",
             tech: ["Laravel", "PHP", "Bootstrap", "HTML5/CSS3/JavaScript", "mySQL"],
@@ -251,7 +251,7 @@ const Projects = () => {
         // },
         {
             id: 6,
-            name: "Geographic Information System (GIS)",
+            name: "Geographic Information System (GIS), (React JS, Laravel API)",
             year: "2021",
             description: "Web platform for the dematerialization of procedures and online services on behalf of the Ouarzazate-Zagora-Tinghir Urban Agency",
             tech: ["Laravel", "PHP" ,"Postgresql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript", "OpenLayers"],
@@ -262,7 +262,7 @@ const Projects = () => {
         },
         {
             id: 7,
-            name: "Learning Management System",
+            name: "Learning Management System, (Moodle)",
             year: "2021",
             description: "Application web gèrer le processus d'apprentissage via une ingénierie de formation convenable, pour le Ministère d'Intérieur",
             tech: ["Moodle", "Postgresql", "PHP", "Mustache", "Bootstrap"],
@@ -273,7 +273,7 @@ const Projects = () => {
         },
         {
             id: 8,
-            name: "Learning Management System",
+            name: "Learning Management System, (Spring boot, React JS)",
             year: "2021",
             description: "Advanced LMS app",
             tech: ["Spring boot", "Java", "Mysql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
@@ -284,7 +284,7 @@ const Projects = () => {
         },
         {
             id: 9,
-            name: "Knowledge management system",
+            name: "Knowledge management system, (Liferay DXP)",
             year: "2021",
             description: "The concept of Knowledge Management System (KMS) aims to help internal users create, share, structure and disseminate knowledge to targeted and interested users.",
             tech: ["Liferay", "Postgresql"],
@@ -295,7 +295,7 @@ const Projects = () => {
         },
         {
             id: 10,
-            name: "Knowledge management system",
+            name: "Knowledge management system, (React JS, Laravel API)",
             year: "2021",
             description: "Knowledge Management System (KMS)",
             tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
@@ -306,7 +306,7 @@ const Projects = () => {
         },
         {
             id: 11,
-            name: "Intermediate platform between experts & companies",
+            name: "Intermediate platform between experts & companies, (React JS, Laravel API)",
             year: "2021",
             description: "Intermediate platform between experts & companies",
             tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],

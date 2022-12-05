@@ -92,7 +92,7 @@ const Experiences = () => {
     return (
         <div id="work" className="pt-16">
             <div className=" mt-5 mb-5">
-                <Title title="Professional experience" icon={work} color="#1f2235"/>
+                <Title title="Experience" icon={work} color="#1f2235"/>
             </div>
             <div>
                 <div id="workexperience" className="sectionClass">
