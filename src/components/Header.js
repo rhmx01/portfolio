@@ -10,11 +10,11 @@ const Header = () => {
     // const pic = "https://firebasestorage.googleapis.com/v0/b/testimageview.appspot.com/o/photo2.png?alt=media&token=79e416b2-6a5c-472d-a2bc-0b0b640d94f5";
 
     const data_fr = {
-        name: "Rachid Hamma Ali.",
+        name: "Rachid HAMMA ALI.",
         description: "Ingénieur de projet avec +4 ans d'expérience dans les technologies de l'information, principalement dans les projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
     }
     const data_en = {
-        name: "Rachid hamma ali.",
+        name: "Rachid HAMMA ALI.",
         description: "Project Engineer with +4 years of experience in the information technology, mostly in large projects like Geographic Information System (SIG) & learning management systems (LMS)"
     }
     const [section, setSection] = useState('about')

@@ -12,6 +12,10 @@ const Diplomes = () => {
             </div>
             <div className="text-color grid gap-8 w-fit mx-auto">
                 <div className="flex">
+                    <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2023: </span></p>
+                    <p className="f6"><u>Master (encore)</u> en Informatique Appliquée offshoring (IAO) au sein de l'université Mohammed V de Rabat.</p>
+                </div>
+                <div className="flex">
                     <p className="w-28"><span className="font-bold text-lg"><ArrowRight/>2019: </span></p>
                     <p className="f6"><u>Licence</u> fondamentale en Sciences Mathématiques, Informatique et Applications (SMIA) au sein de la faculté Polydisciplinaire d’OUARZAZATE.</p>
                 </div>

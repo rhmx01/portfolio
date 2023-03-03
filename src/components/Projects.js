@@ -163,7 +163,7 @@ const Projects = () => {
             id: 11,
             name: "Plateforme intermédiaire entre experts & entreprises, (React JS, Laravel API)",
             year: "2021",
-            description: "BS",
+            description: "Plateforme intermédiaire entre experts & entreprises",
             tech: ["Laravel", "PHP" ,"MySql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
             strTech: "Laravel, PHP ,MySql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript",
             picSrc: iglomiimg,

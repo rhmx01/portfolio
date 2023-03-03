@@ -16,7 +16,7 @@ const About = () => {
         {name: "Anglais", level: 4},
         {name: "Français", level: 3},
         {name: "Arabe", level: 5},
-        {name: "Tamazight", level: 5},
+        // {name: "Tamazight", level: 5},
         ]
     return (
         <div id="" className="py-8">
@@ -39,7 +39,7 @@ const About = () => {
                     </div>
                     <div id="contact" className="p-4 px-8 border-l order-slate-800">
                         <h1 className="mb-4 font-bold text-2xl uppercase">Contact</h1>
-                        <h3 className="mb-4 font-bold"><a href="mailto:rachid@hammaali.ma"><Email/> rachid@hammaali.ma</a></h3>
+                        <h3 className="mb-4 font-bold"><a href="mailto:r.hammaali@gmail.com"><Email/> r.hammaali@gmail.com</a></h3>
                         <h3 className="mb-4 font-bold"><a href="tel:0696227119"><Phone/> +(212) 696 22 71 19</a></h3>
                         <h3 className="mb-4 font-bold"><Public/> <a href="https://hammaali.ma/" target="_blank">www.hammaali.ma</a></h3>
                     </div>
