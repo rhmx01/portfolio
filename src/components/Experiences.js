@@ -6,7 +6,7 @@ import {ArrowRight, Event, Flag} from "@mui/icons-material";
 const Experiences = () => {
     const data_fr = {
         job: "Ingénieur de projet",
-        date: "Mars 2020 - Présent",
+        date: "Mars 2021 - Présent",
         compagny: "Bluescratch, Casablanca",
         projects: [
             {
@@ -20,6 +20,11 @@ const Experiences = () => {
                 description: "Travail individuel pour développer une application LMS personnalisée avec Moodle pour le Ministère d'Intérieur"
             },
             {
+                id: 5,
+                title: "Knowledge management system (KMS)",
+                description: "Travail individuel pour développer une application KMS avec Liferay pour le Ministère d'Intérieur"
+            },
+            {
                 id: 3,
                 title: "Learning Management System (LMS)",
                 description: "Travail en équipe pour développer une application LMS avancée avec Spring Boot & React JS"
@@ -30,13 +35,8 @@ const Experiences = () => {
                 description: "Travail en équipe pour développer une application KMS avec Laravel & React JS"
             },
             {
-                id: 5,
-                title: "Knowledge management system (KMS)",
-                description: "Travail individuel pour développer une application KMS avec Liferay pour le Ministère d'Intérieur"
-            },
-            {
                 id: 6,
-                title: "Plateforme des consultants",
+                title: "Plateforme intermédiaire entre experts & entreprises, (React JS, Laravel API)",
                 description: "Travail en équipe pour développer une application de bank des consultants en Laravel & React JS"
             },
             // {

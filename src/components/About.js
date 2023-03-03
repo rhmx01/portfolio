@@ -10,7 +10,7 @@ const About = () => {
 
     const data_fr = {
         name: "Rachid Hamma Ali.",
-        description: "Ingénieur de projet avec +3 ans d'expérience dans les technologies de l'information, principalement dans les grands projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
+        description: "Ingénieur de projet avec +4 ans d'expérience dans les technologies de l'information, principalement dans les grands projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
     }
     const langages = [
         {name: "Anglais", level: 4},
