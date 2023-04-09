@@ -11,31 +11,37 @@ const Experiences = () => {
         projects: [
             {
                 id: 1,
+                org: "AUOZT",
                 title: "Système d'Information Géographique (SIG)",
                 description: "Travail en équipe pour développer une application SIG avec Laravel & React JS, pour l’Agence Urbaine Ouarzazate-Zagora–Tinghir (AUOZT)"
             },
             {
                 id: 2,
+                org: "MI RNP",
                 title: "Learning Management System (LMS)",
-                description: "Travail individuel pour développer une application LMS personnalisée avec Moodle pour le Ministère d'Intérieur"
+                description: "Travail individuel pour développer une application LMS personnalisée avec Moodle pour le Ministère d'Intérieur (Projet RNP)"
             },
             {
                 id: 5,
+                org: "MI RNP",
                 title: "Knowledge management system (KMS)",
-                description: "Travail individuel pour développer une application KMS avec Liferay pour le Ministère d'Intérieur"
+                description: "Travail individuel pour développer une application KMS avec Liferay pour le Ministère d'Intérieur (Projet RNP)"
             },
             {
                 id: 3,
+                org: "inwi",
                 title: "Learning Management System (LMS)",
-                description: "Travail en équipe pour développer une application LMS avancée avec Spring Boot & React JS"
+                description: "Travail en équipe pour développer une application LMS avancée avec Spring Boot & React JS (Academie by inwi)"
             },
             {
                 id: 4,
+                org: "Bluescratch",
                 title: "Knowledge management system (KMS)",
                 description: "Travail en équipe pour développer une application KMS avec Laravel & React JS"
             },
             {
                 id: 6,
+                org: "Bluescratch",
                 title: "Plateforme intermédiaire entre experts & entreprises, (React JS, Laravel API)",
                 description: "Travail en équipe pour développer une application de bank des consultants en Laravel & React JS"
             },
@@ -69,7 +75,7 @@ const Experiences = () => {
                                         <div className="projectParagraph">
                                             {data_fr.projects.map( project => (
                                                     <div key={project.id} className="mt-2">
-                                                        <span className="font-bold"><ArrowRight/>{project.title} :</span><br/>
+                                                        <span className="font-bold"><ArrowRight/>{project.org} :</span> {project.title}<br/>
                                                         <p className="ml-8">{project.description}</p>
                                                     </div>
                                                 )

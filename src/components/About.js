@@ -3,20 +3,16 @@ import Title from "./Title";
 import work from "../images/work.png";
 import boxeicon from "../images/boxe.png";
 import cookingicon from "../images/cooking.png";
-import {Circle, CircleOutlined, Email, Phone, Public} from "@mui/icons-material";
+import {Circle, CircleOutlined, Email, Phone, Public, WhatsApp} from "@mui/icons-material";
 import {Rating} from "@mui/material";
 
 const About = () => {
 
-    const data_fr = {
-        name: "Rachid Hamma Ali.",
-        description: "Ingénieur de projet avec +4 ans d'expérience dans les technologies de l'information, principalement dans les grands projets comme les Systèmes d'Information Géographique (SIG) et Learning Management Systems (LMS)."
-    }
     const langages = [
+        {name: "Tamazight", level: 5},
+        {name: "Arabe", level: 5},
         {name: "Anglais", level: 4},
         {name: "Français", level: 3},
-        {name: "Arabe", level: 5},
-        // {name: "Tamazight", level: 5},
         ]
     return (
         <div id="" className="py-8">
@@ -35,12 +31,12 @@ const About = () => {
                         <h3 className="font-bold">Age : 25 ans</h3>
                         {/*<h3 className="font-bold">Né le : 26-03-1997</h3>*/}
                         <h3 className="font-bold">Situation familiale : Célibataire</h3>
-                        <h3 className="font-bold">Permis de Conduire (B) : 2019</h3>
+                        {/*<h3 className="font-bold">Permis de Conduire (B) : 2019</h3>*/}
                     </div>
                     <div id="contact" className="p-4 px-8 border-l order-slate-800">
                         <h1 className="mb-4 font-bold text-2xl uppercase">Contact</h1>
-                        <h3 className="mb-4 font-bold"><a href="mailto:r.hammaali@gmail.com"><Email/> r.hammaali@gmail.com</a></h3>
-                        <h3 className="mb-4 font-bold"><a href="tel:0696227119"><Phone/> +(212) 696 22 71 19</a></h3>
+                        <h3 className="mb-4 font-bold"><a href="mailto:rachid@hammaali.ma"><Email/> rachid@hammaali.ma</a></h3>
+                        <h3 className="mb-4 font-bold"><a href="https://api.whatsapp.com/send/?phone=212715244220"><WhatsApp/> +212 715-244220</a></h3>
                         <h3 className="mb-4 font-bold"><Public/> <a href="https://hammaali.ma/" target="_blank">www.hammaali.ma</a></h3>
                     </div>
                     <div id="langages" className="p-4 px-8 border-l order-slate-800">

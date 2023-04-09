@@ -130,7 +130,7 @@ const Projects = () => {
             id: 8,
             name: "Learning Management System",
             year: "2021",
-            description: "Application LMS avancée",
+            description: "Application LMS avancée pour gérer l'apprentissage de l'entreprises de télécommunications inwi",
             tech: ["Spring boot", "Java", "Mysql", "Reactjs", "Redux-saga", "Tailwind CSS", "Materiel UI", "Javascript"],
             strTech: "Spring boot, Java, Mysql, Reactjs, Redux-saga, Tailwind CSS, Materiel UI, Javascript",
             picSrc: bslmsimg,
